@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> 
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+<title>Document</title>
+</head>
+<body class="container-fluid">
+  <section class="row justify-content-center align-items-center load_section" style="height:100vh">
+    <div class="text-center load anima" style="transform: translate(0,5px);">
+    </div>
+  </section>
+  <section class="home_section">
+    <nav class="navbar fixed-top navbar-expand-lg bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">Mitra Photography</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Contact</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+    <hr>
+
+  </section>
+  <section id="about" class="about_section">
+    <div class="col-lg-12 text-center gallery_center_content">
+     
+    </div>
+    <div class="row  justify-content-center">
+      <div class="col-lg-5 about_sectio_2" >
+        <img src="https://ik.imagekit.io/mitraphoto/New_folder_Butterfly/My_photo/IMG_20210717_164909_ZFpLuNf_GB.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661674641198" alt="mitraphoto_mitraphotography" >
+      </div>
+      <div class="col-lg-5 about_sectio_1">
+        <h4>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        </h4>
+      </div>
+      
+    </div>
+  </section>
+   <section id="gallery" class="gallery_section">
+    <div class="row justify-content-center" id="gallery_grid">
+      <div class="col-lg-10 col-12 text-center gallery_center_content">
+        <p>Gallery</p>
+      </div>
+      <div class="row  justify-content-center" style="height:100vh" >
+        <div class="col-lg-10 col-12 wrapper_1" >
+          <div class="w-100  collage_1" style="height:30%">
+          
+          </div>
+          <div class="w-100 bg-danger collage_2" style="height:40%">
+            
+          </div>
+          <div class="w-100 bg-warning collage_3" style="height:30%">
+            
+          </div>
+          <div class="w-100  wrapper_2" style="height:100vh">
+            <div class="row justify-content-center align-items-center gallery_banner h-100">
+              <div class="col-lg-4 ">
+                <h1 id="btn3">Explore</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+       
+      </div>
+     <!-- <ul class="nav justify-content-center">
+      <li class="nav-item"><a class="nav-link co" href="#stilllife">Still life</a></li>
+      <li class="nav-item"><a class="nav-link co" href="#">Nature</a></li>
+      <li class="nav-item"><a class="nav-link co" href="#">People</a></li>
+      <li class="nav-item"><a class="nav-link co" href="#">Birds</a></li>
+      <li class="nav-item"><a class="nav-link co" href="#">Butterfly</a></li>
+     </ul>
+     <div id="#stilllife">
+     <div class="row  justify-content-center mt-5">
+      <div class="col-lg-3 parent1" id="slife1">
+        <img width="100%" height="90%" src="https://ik.imagekit.io/mitraphoto/New_folder_Butterfly/Still_life/IMG_20210717_114426_3HHSA1OQj.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661674649111">
+        <div class="hover">
+          
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+              <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+              <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+            </svg>
+         
+        </div>
+      </div>
+     <div class="col-lg-6" id="slife2">
+      <img width="100%"  height="90%" src="https://ik.imagekit.io/mitraphoto/New_folder_Butterfly/Still_life/IMG_20210717_113311_hvU0zyWfJw.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661674649492">
+     </div> 
+     </div>
+     <div class="row  justify-content-center">
+      <div class="col-lg-3" id="slife3">
+        <img width="100%" height="80%" src="https://ik.imagekit.io/mitraphoto/New_folder_Butterfly/Still_life/IMG_20210717_113749_5soxmT7TWQ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661674649458">
+      </div>
+     <div class="col-lg-3" id="slife4">
+      <img width="100%"  height="80%" src="https://ik.imagekit.io/mitraphoto/New_folder_Butterfly/Still_life/IMG_20210717_114728_pT-HuAFsQ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661674648785">
+     </div> 
+     <div class="col-lg-3" id="slife5">
+      <img width="100%"  height="80%" src="https://ik.imagekit.io/mitraphoto/New_folder_Butterfly/Still_life/IMG_20210717_113950_k_POOH0NU9.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1661674649479">
+     </div> 
+     </div>
+    </div> -->
+    </div>
+</section>
+<!-- <section id="contact">
+  <div class="row justify-content-center" >
+    <div class="col-12 text-center gallery_center_content">
+      <p>Contact</p>
+    </div>
+    </div>
+
+</section> -->
+
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>
